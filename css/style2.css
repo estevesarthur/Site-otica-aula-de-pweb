@@ -1,0 +1,56 @@
+body{
+    margin-top: 0px;
+    font-family:sans-serif:
+    
+}
+.barra_superior{
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(187, 187, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* links de navegacao da pagina */
+nav{
+    color: rgb(187, 187, 187); /* muda a cor da fonte? */
+    font-size: 12px;
+    float: right;
+    margin-top: 50px;
+}
+
+nav a{
+    color: rgb(187, 187, 187); 
+    text-decoration: none; /*tira o underline do link */
+    
+}
+
+nav a.btn_destaque{
+    margin-left: 25px;
+}
+
+.btn_destaque{
+    background-color: rgb(255, 77, 77);
+    color: white;
+    padding: 12px 40px; /* margem interna do botao sup dir inf esq. somente um ele muda todos */
+    border-radius: 3px; /* arredonda as bordas */
+    
+    font-size: 12px;
+    text-decoration: none; 
+    
+}
+
+.sec01{
+    height: 640px; /* altura da seção */
+    color: white;
+    background-image: url(../img/Home.png); /* acrescenta uma imagem*/
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 100%; /* distancia entre linhas do texto */
+}
+
