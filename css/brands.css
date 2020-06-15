@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+header{
+    margin: 0 25px;
+}
+.barra_superior{
+    border-bottom: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 0;
+    font-size: 30px;
+    display: flex;
+    text-align: left; 
+    flex: 1;
+    margin: 25px;
+}
+.container img{
+    margin-top: 20px;
+    width: 700px;
+    height: auto;
+    margin-left: 60px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}/* links de navegacao da pagina */
+nav{
+    color: var(--primary-color); /* muda a cor da fonte? */
+    font-size: 80px;
+    margin-bottom: 150px;
+    margin-right: 60px;   
+}
+nav a{
+    color: var(--primary-color); 
+    text-decoration: none; /*tira o underline do link */
+}
+nav a.btn_destaque{
+    margin-left: 25px;
+}
+.btn_destaque{
+    background-color: rgb(255, 77, 77);
+    color: white;
+    padding: 20px 40px; /* margem interna do botao sup dir inf esq. somente um ele muda todos */
+    border-radius: 10px; /* arredonda as bordas */
+    font-size: 80px;
+    text-decoration: none; 
+    margin-right: 25px;
+}
+.conteudo{
+    width: 90%;
+    height: auto;
+    margin: 0 200px;
+    display: flex;
+    flex: 1;
+}
+.chamada{
+    color: var(--primary-color);
+    font-size: 90px;
+    margin-right: 1100px;
+    margin-top: 450px;
+    text-align: justify;
+}
+.chamada h1{
+    font-weight: nor;
+}
+.backimage img{
+    width: 115%;
+    height: auto;
+    margin-right: 2100px;
+}
+footer{
+    margin: 0 25px;
+}
+footer .marcas img{
+    width: 40%;
+    height: auto;
+    margin: 150px auto;
+    float: left;
+    margin-inline-start: 400px;
+    border-top: 1px solid var(--primary-color);
+}

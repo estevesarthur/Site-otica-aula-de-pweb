@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--title-color);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    margin: 0 25px;
+}
+.barra_superior{
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(255, 255, 255);
+    padding: 0;
+    font-size: 30px;
+    display: flex;
+    text-align: left; 
+    flex: 1;
+    margin: 25px;
+}
+.container img{
+    margin-top: 20px;
+    width: 700px;
+    height: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+/* links de navegacao da pagina */
+nav{
+    color: rgb(255, 255, 255); /* muda a cor da fonte? */
+    font-size: 80px;
+    margin-bottom: 200px;
+    
+}
+nav a{
+    color: rgb(255, 255, 255); 
+    text-decoration: none; /*tira o underline do link */
+}
+nav a.btn_destaque{
+    margin-left: 25px;
+}
+.btn_destaque{
+    background-color: rgb(255, 77, 77);
+    color: white;
+    padding: 20px 40px; /* margem interna do botao sup dir inf esq. somente um ele muda todos */
+    border-radius: 10px; /* arredonda as bordas */
+    font-size: 80px;
+    text-decoration: none; 
+    margin-right: 25px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/contact.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <header>
+        <div class="barra_superior">
+            <h2>Horário de Abertura: 9:00 as 18:00</h2>
+        </div>
+        <div class="container">
+                <img src="/assets/log.svg" alt="Logo da Empresa" title="Logo da Empresa" >
+                <nav>
+                    <a title="Vai para a página de inicial" href="page-home.html">
+                    Página Inicial</a> | <a title="Vai para a página de Produtos e Marcas" href="page-brands.html">Podutos e Marcas
+                    </a>
+
+                    <a class="btn_destaque" href="page-location.html">Visite-nos
+                    </a>
+                </nav>
+            </div>
+    </header>
+    <form action="#" method="POST"><!--armazenando dados pelo caminho post para que nao aparece na URL GET os dados que podem ser sensiveis com cpf, conta e outros-->
+            
+            <h1>Solicitações, Dúvidas, Sugestões ou Reclamações</h1>
+
+            <fieldset>
+                <!-- separar elementos de uma box, em vez de usar div, usaremos para separar elementos em uma box de formulário -->
+                <legend>
+                    <h2>Mande sua solicitação aqui</h2>
+                </legend>
+                <div class="field-group">
+                    <div class="field">
+                        <label for="name">Nome</label>
+                        <!--Label é o que fica em cima-->
+                        <input type="text" name="name" required="required"><!--required define que o campo é obrigatório para prosseguir-->
+                    </div>
+                    <div class="field">
+                        <label for="email">E-mail</label>
+                        <!--Label é o que fica em cima-->
+                        <input type="email" name="email" placeholder="e-mail@e-mail.com" required="required"><!--required define que o campo é obrigatório para prosseguir-->
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <div class="field">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" name="telefone" placeholder="11-9999-9999" required="required">
+                    </div>
+                    <div class="field">
+                        <label for="celular">Celular</label>
+                        <input type="tel" name="celular" placeholder="11-99999-9999" required="required">
+                    </div>
+                </div>
+                <div class="field-group">
+                    <div class="field">
+                        <label for="solicitacoes"></label>
+                        <input type= "text" name="solicitacoes" placeholder="Escreva aqui"required="required">
+                    </div>
+                </div>
+            </fieldset>
+            <button type="submmit"><strong>Enviar</strong></button>
+        </form>
+</body>
+</html>
